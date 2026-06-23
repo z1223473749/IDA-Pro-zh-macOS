@@ -1,0 +1,32 @@
+MIT License
+
+本项目（macOS / Apple Silicon 注入式汉化：hook 源码、启动器、构建脚本）：
+Copyright (c) 2026 Qiu
+
+词典 ida_lang.txt 及“Qt UI 翻译 hook”思路衍生自 GodKeawa/IDA-Pro-zh_cn（Arch Linux 版），
+其原始版权与许可如下，按 MIT 要求一并保留：
+Copyright (c) 2025 fr0stb1rd
+原项目：https://github.com/GodKeawa/IDA-Pro-zh_cn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+注：IDA / IDA Pro 是 Hex-Rays SA 的产品与商标。本项目不包含、不修改、不分发 IDA 本体，
+仅在运行时注入一个翻译外壳。IDA 的图标等资源版权归 Hex-Rays SA，所有，构建时从你本机已安装的
+IDA 复制，不随本仓库分发。

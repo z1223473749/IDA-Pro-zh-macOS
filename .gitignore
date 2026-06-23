@@ -1,0 +1,20 @@
+# 构建产物 / 不入库
+#   .app 里含 Hex-Rays 的图标(appico.icns)与编译出的二进制，按需用 build.sh 现场生成，
+#   不提交到仓库（保持仓库只含源码+词典，干净、无第三方版权物）。
+*.app/
+*.dylib
+ida-zh-launcher
+build/
+*.o
+
+# macOS 杂物
+.DS_Store
+._*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 截图原图过大时可忽略（如需保留 docs 截图则删掉下一行）
+# docs/*.png
