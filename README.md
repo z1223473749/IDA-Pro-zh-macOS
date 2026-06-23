@@ -1,5 +1,7 @@
 # IDA Professional 9.3 中文汉化（macOS / Apple Silicon）
 
+> **版本 v1.0.0** · 支持 **IDA Pro / IDA Professional 9.3**（macOS / Apple Silicon · arm64 · Qt 6.8）
+
 > 一个**不修改原版 IDA** 的界面汉化方案：用 `DYLD_INSERT_LIBRARIES` 往 IDA 进程注入一个
 > 翻译库，运行时拦截 Qt6 的若干“设置界面文字”的函数，按词典把英文换成中文，再交还给 Qt。
 > 双击一个壳 `.app` 即可启动「中文界面的官方原版 IDA」。
